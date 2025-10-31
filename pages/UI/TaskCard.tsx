@@ -22,7 +22,7 @@ export default function TaskCard({ task, color = "orange" }: TaskCardProps) {
       {/* Background Image */}{" "}
       <div className="absolute inset-0">
         <Image
-          src={task.image || "/images/task-bg.jpg"}
+          src={"/images/bg_image.jpg"}
           alt={task.name}
           fill
           className="object-cover"
